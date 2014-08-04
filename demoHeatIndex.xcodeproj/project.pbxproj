@@ -14,13 +14,16 @@
 		3BA09EDB198C03F8006C8BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09EDA198C03F8006C8BC1 /* main.m */; };
 		3BA09EDF198C03F8006C8BC1 /* ERSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09EDE198C03F8006C8BC1 /* ERSAppDelegate.m */; };
 		3BA09EE2198C03F8006C8BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA09EE0198C03F8006C8BC1 /* Main.storyboard */; };
-		3BA09EE5198C03F8006C8BC1 /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09EE4198C03F8006C8BC1 /* ERSViewController.m */; };
 		3BA09EE7198C03F8006C8BC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA09EE6198C03F8006C8BC1 /* Images.xcassets */; };
 		3BA09EEE198C03F8006C8BC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA09EED198C03F8006C8BC1 /* XCTest.framework */; };
 		3BA09EEF198C03F8006C8BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA09ECE198C03F8006C8BC1 /* Foundation.framework */; };
 		3BA09EF0198C03F8006C8BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA09ED2198C03F8006C8BC1 /* UIKit.framework */; };
 		3BA09EF8198C03F8006C8BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA09EF6198C03F8006C8BC1 /* InfoPlist.strings */; };
 		3BA09EFA198C03F8006C8BC1 /* demoHeatIndexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09EF9198C03F8006C8BC1 /* demoHeatIndexTests.m */; };
+		3BA09F05198C0425006C8BC1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09F04198C0425006C8BC1 /* MainViewController.m */; };
+		3BA09F0A198C086A006C8BC1 /* HeatIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09F09198C086A006C8BC1 /* HeatIndex.m */; };
+		3BA09F0D198C09E0006C8BC1 /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09F0C198C09E0006C8BC1 /* Language.m */; };
+		3BA09F10198C131E006C8BC1 /* AlertBoxParamPasser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09F0F198C131E006C8BC1 /* AlertBoxParamPasser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		3BA09EDD198C03F8006C8BC1 /* ERSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSAppDelegate.h; sourceTree = "<group>"; };
 		3BA09EDE198C03F8006C8BC1 /* ERSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSAppDelegate.m; sourceTree = "<group>"; };
 		3BA09EE1198C03F8006C8BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BA09EE3198C03F8006C8BC1 /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		3BA09EE4198C03F8006C8BC1 /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
 		3BA09EE6198C03F8006C8BC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3BA09EEC198C03F8006C8BC1 /* demoHeatIndexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoHeatIndexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA09EED198C03F8006C8BC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3BA09EF5198C03F8006C8BC1 /* demoHeatIndexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demoHeatIndexTests-Info.plist"; sourceTree = "<group>"; };
 		3BA09EF7198C03F8006C8BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BA09EF9198C03F8006C8BC1 /* demoHeatIndexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoHeatIndexTests.m; sourceTree = "<group>"; };
+		3BA09F03198C0425006C8BC1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3BA09F04198C0425006C8BC1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3BA09F08198C086A006C8BC1 /* HeatIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatIndex.h; sourceTree = "<group>"; };
+		3BA09F09198C086A006C8BC1 /* HeatIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatIndex.m; sourceTree = "<group>"; };
+		3BA09F0B198C09E0006C8BC1 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		3BA09F0C198C09E0006C8BC1 /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
+		3BA09F0E198C131E006C8BC1 /* AlertBoxParamPasser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBoxParamPasser.h; sourceTree = "<group>"; };
+		3BA09F0F198C131E006C8BC1 /* AlertBoxParamPasser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertBoxParamPasser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,11 @@
 		3BA09ED4198C03F8006C8BC1 /* demoHeatIndex */ = {
 			isa = PBXGroup;
 			children = (
+				3BA09F07198C0480006C8BC1 /* Model */,
+				3BA09F06198C0441006C8BC1 /* Controller */,
 				3BA09EDD198C03F8006C8BC1 /* ERSAppDelegate.h */,
 				3BA09EDE198C03F8006C8BC1 /* ERSAppDelegate.m */,
 				3BA09EE0198C03F8006C8BC1 /* Main.storyboard */,
-				3BA09EE3198C03F8006C8BC1 /* ERSViewController.h */,
-				3BA09EE4198C03F8006C8BC1 /* ERSViewController.m */,
 				3BA09EE6198C03F8006C8BC1 /* Images.xcassets */,
 				3BA09ED5198C03F8006C8BC1 /* Supporting Files */,
 			);
@@ -150,6 +159,28 @@
 				3BA09EF6198C03F8006C8BC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA09F06198C0441006C8BC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BA09F03198C0425006C8BC1 /* MainViewController.h */,
+				3BA09F04198C0425006C8BC1 /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3BA09F07198C0480006C8BC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BA09F0E198C131E006C8BC1 /* AlertBoxParamPasser.h */,
+				3BA09F0F198C131E006C8BC1 /* AlertBoxParamPasser.m */,
+				3BA09F0B198C09E0006C8BC1 /* Language.h */,
+				3BA09F0C198C09E0006C8BC1 /* Language.m */,
+				3BA09F08198C086A006C8BC1 /* HeatIndex.h */,
+				3BA09F09198C086A006C8BC1 /* HeatIndex.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA09F0D198C09E0006C8BC1 /* Language.m in Sources */,
+				3BA09F0A198C086A006C8BC1 /* HeatIndex.m in Sources */,
 				3BA09EDB198C03F8006C8BC1 /* main.m in Sources */,
-				3BA09EE5198C03F8006C8BC1 /* ERSViewController.m in Sources */,
 				3BA09EDF198C03F8006C8BC1 /* ERSAppDelegate.m in Sources */,
+				3BA09F10198C131E006C8BC1 /* AlertBoxParamPasser.m in Sources */,
+				3BA09F05198C0425006C8BC1 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
